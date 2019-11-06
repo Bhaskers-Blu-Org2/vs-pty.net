@@ -1,5 +1,20 @@
+# Pty.Net
 
-# Contributing
+pty bindings for .NET languages. This allows you to spawn processes connected to a pseudoterminal.
+
+This is useful for:
+
+- Writing a terminal emulator.
+- Convincing programs that you are a terminal in order to get control sequences from their output.
+
+## Supported Platforms
+
+Pty.Net supports Windows, MacOS, and Linux and can run on the following .NET runtimes:
+
+- .NET 4.7.2
+- .NET Standard 2.0
+
+## Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
